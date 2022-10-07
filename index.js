@@ -3,5 +3,12 @@
 // API KEY  782cdbd1
 
 
-console.log (defsedfsf);
+async function main () {
+    const movies = await fetch(`http://www.omdbapi.com/?apikey=782cdbd1&s=fast`);
+    const movieData = movieData.json();
+    console.log(movieData)
+}
+
+main ();
+
 
