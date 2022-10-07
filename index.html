@@ -7,28 +7,65 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="index.js" />
     <script src="index.js"></script>
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
-    <section>
+    <section id="landing">
       <nav>
-        <img class="logo" src="./personal project assets/IMBD pic.png" alt="" />
-        <ul>
-          <li class="nav__link"><a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"></a>Home</li>
-          <li class="nav__link"><a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"></a>Movies</li>
-          <li class="nav__link"><a href="#" class="nav__link--anchor link__hover-effect link__hover-effect--black"></a>Contact</li>
-        </ul>
+        <div class="nav__container">
+          <img
+            class="logo"
+            src="./personal project assets/IMBD pic.png"
+            alt=""
+          />
+          <ul>
+              <li class="nav__link"><a href="#"></a>Home</li>
+              <li class="nav__link"><a href="#"></a>Movies</li>
+              <li class="nav__link"><a href="#"></a>Contact</li>
+          </ul>
+        </div>
       </nav>
+
       <header>
-        <div>
-          <h1 class="landing__header">Browse our movies</h1>
-          <p class="landing__para">one search away from happiness</p>
-          <input type="text">
-          <li><i class="fas fa-magnifying-glass"></i></li>
+        <div class="header__container">
+          <div class="header__description">
+            <h1 class="landing__header">Browse our movies</h1>
+            <p class="landing__para">one search away from happiness</p>
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <li><i class="fas fa-magnifying-glass"></i></li>
+            <figure class="header__img--wrapper">
+              <img
+                src="./personal project assets/undraw_netflix_q-00-o.svg"
+                alt=""
+              />
+            </figure>
+          </div>
         </div>
       </header>
     </section>
   </body>
-  <footer></footer>
+
+  <footer>
+    <div class="container">
+        <div class="row row__column">
+            <a href="">
+                <figure class="footer__logo">
+                    <img src="./personal project assets/IMBD pic.png" class="footer__logo--img"alt="">
+                </figure>
+            </a>
+            <div class="footer__list">
+                <a href="#" class="footer__link">Home</a></li>
+                <a href="#landing" class="footer__link cursor">Movies</a></li>
+                <a href="#" class="footer__link cursor">Contact</a></li>
+            </div>
+            <div class="footer__copyright">Copyright © 2022 movie project</div>
+        </div>
+    </div>
+  </footer>
 </html>
