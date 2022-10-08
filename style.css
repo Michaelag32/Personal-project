@@ -41,6 +41,32 @@ section {
     background-color: #4b4b4c;
 }
 
+input {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:#f2f2f2;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+input::placeholder {
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+
 /* 
 
 
@@ -136,18 +162,6 @@ nav {
     font-size: 18px;
     padding-bottom: 16px;
 }
-
-input {
-    display: block;
-    margin: 0 auto;
-    width: 32%;
-    height: 4%;
-    border-radius: 8px;
-    line-height: 1;
-    height: 2.5rem;
-
-}
-
 
 /* 
 
