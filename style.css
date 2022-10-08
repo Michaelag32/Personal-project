@@ -16,7 +16,6 @@ h1 {
     font-size: 42px;
 }
 
-
 .icon {
     width: 100px;
     height: 100px;
@@ -38,6 +37,10 @@ h1 {
     align-items: center;
 }
 
+section {
+    background-color: #4b4b4c;
+}
+
 /* 
 
 
@@ -47,7 +50,7 @@ LANDING
 */
 
 #landing {
-    background-color: #4b4b4c;
+    min-height: 100vh;
 }
 
 
@@ -67,14 +70,15 @@ NAV
 
 nav {
     height: 100px;
-    background-color: #4b4b4c;
 }
 
 .nav__container {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 0 16px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav__link--list {
@@ -86,6 +90,7 @@ nav {
 }
 
 .nav__link--anchor {
+    text-decoration: none;
     font-size: 24px;
     color: #d6ae42;
     font-weight: 700;
@@ -112,6 +117,10 @@ nav {
 .nav__link:hover{
     color: #fff;
     transition: all 300ms ease;
+}
+
+.fa-film {
+    font-size: 32px;
 }
 
 .landing__header {
@@ -168,6 +177,7 @@ FOOTER
 
 
 */
+
 
 footer {
     background-color: #4b4b4c;
